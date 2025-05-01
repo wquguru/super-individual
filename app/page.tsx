@@ -5,6 +5,7 @@ import { Card } from './components/Card'
 import { Footer } from './components/Footer'
 import ServicesSection from './components/ServicesSection'
 import Testimonials from './components/Testimonials'
+import About from './components/About'
 
 const resources = [
   {
@@ -35,6 +36,9 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <ServicesSection />
+      <About />
+      <Testimonials />
       <Grid
         title="Featured Resources"
         description="Curated guides and templates to help you grow personally and professionally."
@@ -43,8 +47,6 @@ export default function Home() {
           <Card key={resource.title} {...resource} />
         ))}
       </Grid>
-      <ServicesSection />
-      <Testimonials />
       <Footer />
     </div>
   )

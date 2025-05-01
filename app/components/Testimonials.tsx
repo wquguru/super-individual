@@ -188,48 +188,6 @@ const Testimonials = () => {
             ))}
           </Swiper>
         </div>
-
-        {/* 资质展示区域 */}
-        <div className="bg-white p-10 rounded-2xl shadow-xl mb-20 backdrop-blur-sm bg-white/90">
-          <h3 className="text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-400">
-            专业背景
-          </h3>
-          <div className="prose max-w-3xl mx-auto">
-            <ul className="list-none space-y-4 text-gray-700">
-              {[
-                "10年互联网行业经验，精通React.js、Python、Golang等技术栈",
-                "曾任职于多家知名科技公司，担任技术负责人职位",
-                "个人创业经验丰富，熟悉创业全流程",
-                "专业的职业规划顾问，帮助数百人实现职业转型"
-              ].map((item, index) => (
-                <li key={index} className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        {/* 数据亮点区域 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {metrics.map((metric) => (
-            <div
-              key={metric.id}
-              className="text-center p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
-            >
-              <div className="flex justify-center mb-4">
-                <div className="p-3 bg-blue-50 rounded-xl">
-                  {metric.icon}
-                </div>
-              </div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">
-                {metric.value}
-              </div>
-              <div className="text-gray-600 text-lg">{metric.label}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
