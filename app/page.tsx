@@ -6,6 +6,7 @@ import { Footer } from './components/Footer'
 import ServicesSection from './components/ServicesSection'
 import Testimonials from './components/Testimonials'
 import About from './components/About'
+import FAQ from './components/FAQ'
 
 const resources = [
   {
@@ -47,6 +48,7 @@ export default function Home() {
           <Card key={resource.title} {...resource} />
         ))}
       </Grid>
+      <FAQ />
       <Footer />
     </div>
   )
