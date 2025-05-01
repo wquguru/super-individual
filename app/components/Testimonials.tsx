@@ -122,34 +122,42 @@ const Testimonials = () => {
             slidesPerView={1}
             centeredSlides={true}
             autoplay={{
-              delay: 5000,
+              delay: 7000,
               disableOnInteraction: false,
+              pauseOnMouseEnter: true,
             }}
             pagination={{
               clickable: true,
               dynamicBullets: true,
+              bulletActiveClass: 'swiper-pagination-bullet-active-testimonial'
             }}
-            navigation={true}
+            navigation={{
+              prevEl: '.swiper-button-prev',
+              nextEl: '.swiper-button-next',
+            }}
             effect="coverflow"
             coverflowEffect={{
-              rotate: 50,
+              rotate: 15,
               stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
+              depth: 50,
+              modifier: 2,
+              slideShadows: false,
             }}
             grabCursor={true}
+            speed={800}
+            watchSlidesProgress={true}
+            preventInteractionOnTransition={true}
             breakpoints={{
               640: {
                 slidesPerView: 1,
                 spaceBetween: 20,
               },
               768: {
-                slidesPerView: 2,
+                slidesPerView: 1.5,
                 spaceBetween: 30,
               },
               1024: {
-                slidesPerView: 2.5,
+                slidesPerView: 2,
                 spaceBetween: 40,
               },
             }}
