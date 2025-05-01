@@ -2,7 +2,7 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-white pt-16 md:pt-20">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -17,14 +17,14 @@ const Hero = () => {
                 从职业规划到技能指导，按需定制您的时间包。专注于 React.js、Python、Golang、Rust 开发指导，以及套利和职业咨询服务。
               </p>
               
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <Button variant="primary" size="lg">
+              <div className="mt-8 flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:justify-center lg:justify-start">
+                <div className="w-full sm:w-auto">
+                  <Button variant="primary" className="w-full justify-center sm:w-auto px-8">
                     开始预订
                   </Button>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <Button variant="outline" size="lg">
+                <div className="w-full sm:w-auto sm:ml-4">
+                  <Button variant="secondary" className="w-full justify-center sm:w-auto px-8">
                     了解更多
                   </Button>
                 </div>
