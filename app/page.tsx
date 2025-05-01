@@ -10,10 +10,18 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
-      <ServicesSection />
-      <About />
-      <Testimonials />
-      <FAQ />
+      <div id="services">
+        <ServicesSection />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="testimonials">
+        <Testimonials />
+      </div>
+      <div id="faq">
+        <FAQ />
+      </div>
     </div>
   )
 } 
