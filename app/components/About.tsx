@@ -11,17 +11,17 @@ const About = () => {
     {
       name: 'X (Twitter)',
       icon: <FaXTwitter className="w-6 h-6" />,
-      url: 'https://twitter.com/your-handle',
+      url: 'https://twitter.com/wquguru',
     },
     {
       name: '小红书',
       icon: <SiXiaohongshu className="w-6 h-6" />,
-      url: 'https://xiaohongshu.com/your-profile',
+      url: 'https://xiaohongshu.com/user/profile/wquguru',
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin className="w-6 h-6" />,
-      url: 'https://linkedin.com/in/your-profile',
+      url: 'https://linkedin.com/in/wquguru',
     },
   ];
 
@@ -51,14 +51,9 @@ const About = () => {
               
               {/* 照片容器 */}
               <div className="relative overflow-hidden rounded-3xl group">
-                <Image
-                  src="/images/profile.jpg"
-                  alt="Jeff的个人照片"
-                  width={500}
-                  height={500}
-                  className="object-cover w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                  priority
-                />
+                <div className="w-full h-full aspect-square bg-gradient-to-br from-indigo-50 to-white p-8">
+                  <span className="text-6xl select-none block" role="img" aria-label="个人头像">👨‍💻</span>
+                </div>
               </div>
             </div>
 

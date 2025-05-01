@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link'
-import Button from './Button'
 import { useState } from 'react'
+import Logo from './Logo'
+import Button from './Button'
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,9 +26,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4 md:space-x-10">
           {/* Logo */}
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              超级个体
-            </Link>
+            <Logo />
           </div>
 
           {/* Navigation Links */}

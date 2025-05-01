@@ -61,7 +61,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://twitter.com/your_handle"
+                href="https://twitter.com/wquguru"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -69,7 +69,7 @@ const Footer = () => {
                 <FaXTwitter className="text-xl" />
               </a>
               <a
-                href="https://www.xiaohongshu.com/user/profile/your_id"
+                href="https://www.xiaohongshu.com/user/profile/wquguru"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -77,7 +77,7 @@ const Footer = () => {
                 <SiXiaohongshu className="text-xl" />
               </a>
               <a
-                href="https://www.linkedin.com/in/your_profile"
+                href="https://www.linkedin.com/in/wquguru"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -107,7 +107,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="https://wqu.guru" className="text-gray-400 hover:text-white transition-colors">
                   技术博客
                 </Link>
               </li>
@@ -120,13 +120,13 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-gray-400">
                 <MdEmail className="text-xl" />
-                <a href="mailto:contact@example.com" className="hover:text-white transition-colors">
-                  contact@example.com
+                <a href="mailto:admin@wqu.guru" className="hover:text-white transition-colors">
+                  admin@wqu.guru
                 </a>
               </div>
               <div className="flex items-center gap-2 text-gray-400">
                 <FaWeixin className="text-xl" />
-                <span>WeChat: your_wechat_id</span>
+                <span>WeChat: wquguru</span>
               </div>
             </div>
           </div>
