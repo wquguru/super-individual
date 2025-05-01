@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import { Button } from './Button'
+import Button from './Button'
 
-export function Header() {
+const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -52,4 +52,6 @@ export function Header() {
       </div>
     </header>
   )
-} 
+}
+
+export default Header; 

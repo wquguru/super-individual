@@ -1,6 +1,6 @@
-import { Button } from './Button'
+import Button from './Button'
 
-export function Hero() {
+const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-white">
       <div className="max-w-7xl mx-auto">
@@ -44,4 +44,6 @@ export function Hero() {
       </div>
     </div>
   )
-} 
+}
+
+export default Hero; 
