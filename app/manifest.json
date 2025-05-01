@@ -1,0 +1,17 @@
+{
+  "name": "超级个体",
+  "short_name": "超级个体",
+  "description": "专业的个人品牌服务平台",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+} 
