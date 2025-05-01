@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### 超级个体首页
+
+技术栈详情：
+- 核心框架：Next.js（最新版本）
+- 主要技术：
+  - React.js 用于组件开发
+  - TypeScript 确保类型安全
+  - Tailwind CSS 用于现代化样式开发
+  - React Icons 用于图标系统
+  - Next.js App Router 用于路由管理
+  - Next.js Image 组件用于图片优化
+
+技术需求：
+1. 响应式设计：
+   - 移动端优先
+   - 适配多种设备尺寸
+
+2. 组件架构：
+   - 布局组件：
+     * 头部导航（Header）
+     * 页脚（Footer）
+   - 功能组件：
+     * 服务卡片（ServiceCard）
+     * 评价展示（TestimonialCard）
+     * 常见问题（FAQ）
+   - 页面组件：
+     * 首页（Home）
+     * 服务列表（Services）
+     * 关于我（About）
+
+3. 性能优化：
+   - 图片懒加载和优化
+   - 组件按需加载
+   - SEO 优化方案
+
+4. 交互功能：
+   - 预约系统
+   - 联系表单
+   - 社交媒体集成
+
+开发规范：
+1. 全面使用 TypeScript
+2. 采用组件化开发模式
+3. 遵循 Next.js 最佳实践
+4. 确保无障碍访问标准
+5. 注重性能优化
+6. 面向中文用户，使用中文
+
+项目目标：
+打造一个设计独特的个人品牌官网，提供三档次的时间预约服务
+（1小时、8小时、定制时间），展示个人在 React.js、Python、
+Golang、套利、职业咨询等方面的专业能力。

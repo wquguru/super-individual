@@ -1,0 +1,112 @@
+/* 轮播样式自定义 */
+.testimonials-slider {
+  margin: 0 -1rem;
+}
+
+.testimonials-slider .slick-slide {
+  padding: 1rem;
+}
+
+.testimonials-slider .slick-dots {
+  bottom: -2.5rem;
+}
+
+.testimonials-slider .slick-dots li button:before {
+  font-size: 0.75rem;
+  color: #2563eb;
+  opacity: 0.25;
+}
+
+.testimonials-slider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #2563eb;
+}
+
+.testimonials-slider .slick-prev,
+.testimonials-slider .slick-next {
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 10;
+}
+
+.testimonials-slider .slick-prev {
+  left: 1rem;
+}
+
+.testimonials-slider .slick-next {
+  right: 1rem;
+}
+
+.testimonials-slider .slick-prev:before,
+.testimonials-slider .slick-next:before {
+  font-size: 2.5rem;
+  color: #2563eb;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.testimonials-slider .slick-prev:hover:before,
+.testimonials-slider .slick-next:hover:before {
+  opacity: 1;
+}
+
+.testimonials-swiper {
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(59, 130, 246, 0.5);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6;
+  transform: scale(1.2);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3b82f6;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px -1px rgba(0, 0, 0, 0.15);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* 3D effect enhancement */
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  background-image: linear-gradient(to left, rgba(59, 130, 246, 0.15), rgba(255, 255, 255, 0));
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+} 
