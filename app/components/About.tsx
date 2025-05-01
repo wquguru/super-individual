@@ -94,7 +94,7 @@ const About = () => {
                 我从一名普通开发者成长为多个成功项目的负责人，积累了丰富的实战经验。
               </p>
               <p className="leading-relaxed">
-                我精通React.js、Python、Golang等技术栈，并在套利交易和职业发展咨询方面
+                我精通React.js、Python、Golang、Rust等技术栈，并在套利交易和职业发展咨询方面
                 有着独特的见解。我希望通过提供个性化的时间预约服务，帮助更多人实现职业突破
                 和个人成长。
               </p>

@@ -14,7 +14,7 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                从职业规划到技能指导，按需定制您的时间包。专注于 React.js、Python、Golang 开发指导，以及套利和职业咨询服务。
+                从职业规划到技能指导，按需定制您的时间包。专注于 React.js、Python、Golang、Rust 开发指导，以及套利和职业咨询服务。
               </p>
               
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
